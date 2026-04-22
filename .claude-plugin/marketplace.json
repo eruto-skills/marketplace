@@ -1,0 +1,50 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "eruto-skills",
+  "description": "Claude Code skills for research, presentations, and creative writing",
+  "owner": {
+    "name": "Eruto Kondo",
+    "email": "erutobusiness@gmail.com"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "research-note",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/research-note.git"
+      },
+      "description": "Research any topic from web, YouTube transcripts, PDFs, X/Twitter posts, or GitHub repos, then generate a footnoted Markdown note with an optional Mermaid mindmap. Includes source-quality tiers and headless-Chrome fetching.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/research-note"
+    },
+    {
+      "name": "marp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/marp.git"
+      },
+      "description": "Create, edit, and manage Marp (Markdown) presentation slides. Five modes (create/edit/theme/convert/read) with a design-first approach, layout pattern library, and 60-30-10 color system.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/marp"
+    },
+    {
+      "name": "nanj-thread",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/nanj-thread.git"
+      },
+      "description": "Generate a Japanese anonymous-forum (なんJ / 2ch / 5ch) style thread where fictitious commenters observe and riff on the user, a project, or a given topic. For creative-writing and parody use.",
+      "version": "1.0.0",
+      "category": "creative",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/nanj-thread"
+    }
+  ]
+}
