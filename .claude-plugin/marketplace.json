@@ -45,6 +45,18 @@
       "category": "creative",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/nanj-thread"
+    },
+    {
+      "name": "analyze-video",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/analyze-video.git"
+      },
+      "description": "Analyze a YouTube reference video's structure and rhetorical techniques. Fetches metadata and subtitles via yt-dlp, then extracts macro/micro structure, hooks, pacing, hedging language, persuasion patterns, retention tactics, and memorable phrases as a Markdown report. Compare two videos via --compare.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/analyze-video"
     }
   ]
 }
