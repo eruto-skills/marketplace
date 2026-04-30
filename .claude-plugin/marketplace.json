@@ -57,6 +57,18 @@
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/analyze-video"
+    },
+    {
+      "name": "review-content",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/review-content.git"
+      },
+      "description": "Review the content quality of a video, presentation, or long-form narration on 18 axes — structure (hook / SCQA / logic / pacing), content (accuracy / coverage / specificity / redundancy), delivery (clarity / audience-fit / engagement / emotion / memorable phrases / visual sync), persuasion (credibility / counterargument handling / takeaway / title match). Outputs an A/B/C/D scorecard with concrete improvements.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/review-content"
     }
   ]
 }
