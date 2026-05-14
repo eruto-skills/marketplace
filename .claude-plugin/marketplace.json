@@ -69,6 +69,18 @@
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/review-content"
+    },
+    {
+      "name": "autopilot",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/autopilot.git"
+      },
+      "description": "Scaffold long-running, hands-off Claude Code sessions. Generates a plan with user-observable acceptance criteria, a deterministic loop body, cross-iteration lesson memory, and hard budget/iteration ceilings — then hands off to /loop (interactive) or /schedule (remote cron). Halts on uncertainty instead of guessing.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/autopilot"
     }
   ]
 }
