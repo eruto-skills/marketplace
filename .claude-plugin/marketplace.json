@@ -35,6 +35,18 @@
       "homepage": "https://github.com/eruto-skills/marp"
     },
     {
+      "name": "presentation",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/presentation.git"
+      },
+      "description": "Plan a presentation end-to-end before implementation. Triages requirements, designs the story arc, generates a slide outline, and runs structure QA — then routes the build to a marp or pptx skill. Includes structure-pattern library, content-strategy reference, QA checklist, and outline template.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/presentation"
+    },
+    {
       "name": "nanj-thread",
       "source": {
         "source": "url",
