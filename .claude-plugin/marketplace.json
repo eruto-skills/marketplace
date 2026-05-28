@@ -47,6 +47,18 @@
       "homepage": "https://github.com/eruto-skills/presentation"
     },
     {
+      "name": "slide-visual-reviewer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/slide-visual-reviewer.git"
+      },
+      "description": "Verify slide visual quality from PDF/PNG output. Detects text overflow, element overlap, margin issues, and other layout problems via visual inspection of PNG images. Designed as a sub-skill invoked from marp/pptx QA workflows, but also usable standalone.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/slide-visual-reviewer"
+    },
+    {
       "name": "nanj-thread",
       "source": {
         "source": "url",
