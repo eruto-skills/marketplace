@@ -12,6 +12,8 @@ Claude Code plugin marketplace for the [eruto-skills](https://github.com/eruto-s
 /plugin install design-deai@eruto-skills
 /plugin install design-brief@eruto-skills
 /plugin install ui-visual-reviewer@eruto-skills
+/plugin install fetch-web@eruto-skills
+/plugin install fetch-asset@eruto-skills
 ```
 
 See the [Claude Code plugin docs](https://docs.claude.com/en/docs/claude-code/plugins) for details.
@@ -29,6 +31,8 @@ See the [Claude Code plugin docs](https://docs.claude.com/en/docs/claude-code/pl
 |[design-deai](https://github.com/eruto-skills/design-deai)|Detect AI slop patterns in UI source code and generate a DESIGN.md to prevent recurring AI-generated anti-patterns|
 |[design-brief](https://github.com/eruto-skills/design-brief)|Define visual design direction for a Remotion presentation — proposes color palette, typography, animation language, and generates a theme file|
 |[ui-visual-reviewer](https://github.com/eruto-skills/ui-visual-reviewer)|Audit a web app's rendered UI colors using getComputedStyle — calculates WCAG contrast ratios and validates against design tokens|
+|[fetch-web](https://github.com/eruto-skills/fetch-web)|Fetch web page content as Markdown via r.jina.ai → headless Chrome → curl fallback chain|
+|[fetch-asset](https://github.com/eruto-skills/fetch-asset)|Download media files from the web using yt-dlp, gallery-dl, aria2, Pixabay CDN extractor, or curl|
 
 ## License
 
