@@ -23,6 +23,18 @@
       "homepage": "https://github.com/eruto-skills/research-note"
     },
     {
+      "name": "research-vault",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/research-vault.git"
+      },
+      "description": "Bootstrap and operate a sourced research vault (Obsidian-compatible Markdown project) for long-running investigations — pillar structure with index notes, a parallel research-agent workflow with verification discipline, deterministic integrity checks, and freshness management. For ongoing projects, not single research notes (use research-note for those).",
+      "version": "1.0.0",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/research-vault"
+    },
+    {
       "name": "marp",
       "source": {
         "source": "url",
