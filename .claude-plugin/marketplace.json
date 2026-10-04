@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "eruto-skills",
-  "description": "Claude Code skills for research, presentations, and creative writing",
+  "description": "Codex and Claude Code skills for research, presentations, creative writing, and long-running tasks",
   "owner": {
     "name": "Eruto Kondo",
     "email": "erutobusiness@gmail.com"
   },
   "metadata": {
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -16,8 +16,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/research-note.git"
       },
-      "description": "Research any topic from web, YouTube transcripts, PDFs, X/Twitter posts, or GitHub repos, then generate a footnoted Markdown note with an optional Mermaid mindmap. Includes source-quality tiers and headless-Chrome fetching.",
-      "version": "1.0.0",
+      "description": "Research any topic from web, YouTube transcripts, PDFs, X/Twitter posts, or GitHub repos, then generate a footnoted Markdown note with an optional Mermaid mindmap. Includes source-quality tiers and headless-Chrome fetching for bot-protected pages.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/research-note"
@@ -28,8 +28,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/research-vault.git"
       },
-      "description": "Bootstrap and operate a sourced research vault (Obsidian-compatible Markdown project) for long-running investigations — pillar structure with index notes, a parallel research-agent workflow with verification discipline, deterministic integrity checks, and freshness management. For ongoing projects, not single research notes (use research-note for those).",
-      "version": "1.0.0",
+      "description": "Create and maintain a sourced Markdown research vault with topic indexes, integrity checks, and freshness management.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/research-vault"
@@ -40,8 +40,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/marp.git"
       },
-      "description": "Create, edit, and manage Marp (Markdown) presentation slides. Five modes (create/edit/theme/convert/read) with a design-first approach, layout pattern library, and 60-30-10 color system.",
-      "version": "1.0.0",
+      "description": "Create, edit, and manage Marp (Markdown) presentation slides with a design-first approach. Five modes (create, edit, theme, convert, read/summarize), a layout pattern library, and a 60-30-10 color system with WCAG contrast verification.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/marp"
@@ -53,7 +53,7 @@
         "url": "https://github.com/eruto-skills/presentation.git"
       },
       "description": "Plan a presentation end-to-end before implementation. Triages requirements, designs the story arc, generates a slide outline, and runs structure QA — then routes the build to a marp or pptx skill. Includes structure-pattern library, content-strategy reference, QA checklist, and outline template.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/presentation"
@@ -65,7 +65,7 @@
         "url": "https://github.com/eruto-skills/slide-visual-reviewer.git"
       },
       "description": "Verify slide visual quality from PDF/PNG output. Detects text overflow, element overlap, margin issues, and other layout problems via visual inspection of PNG images. Designed as a sub-skill invoked from marp/pptx QA workflows, but also usable standalone.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/slide-visual-reviewer"
@@ -77,7 +77,7 @@
         "url": "https://github.com/eruto-skills/nanj-thread.git"
       },
       "description": "Generate a Japanese anonymous-forum (なんJ / 2ch / 5ch) style thread where fictitious commenters observe and riff on the user, a project, or a given topic. For creative-writing and parody use.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "creative",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/nanj-thread"
@@ -88,8 +88,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/analyze-video.git"
       },
-      "description": "Analyze a YouTube reference video's structure and rhetorical techniques. Fetches metadata and subtitles via yt-dlp, then extracts macro/micro structure, hooks, pacing, hedging language, persuasion patterns, retention tactics, and memorable phrases as a Markdown report. Compare two videos via --compare.",
-      "version": "1.0.0",
+      "description": "Analyze a YouTube reference video's structure and rhetorical techniques. Fetches subtitles via yt-dlp, then extracts macro/micro structure, hooks, pacing, hedging, persuasion patterns, retention tactics, and memorable phrases as a Markdown report.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/analyze-video"
@@ -100,8 +100,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/review-content.git"
       },
-      "description": "Review the content quality of a video, presentation, or long-form narration on 18 axes — structure (hook / SCQA / logic / pacing), content (accuracy / coverage / specificity / redundancy), delivery (clarity / audience-fit / engagement / emotion / memorable phrases / visual sync), persuasion (credibility / counterargument handling / takeaway / title match). Outputs an A/B/C/D scorecard with concrete improvements.",
-      "version": "1.0.0",
+      "description": "Review the content quality of a video, presentation, or long-form narration on 18 axes (structure / content / delivery / persuasion). Outputs an A/B/C/D scorecard with concrete improvement actions. Optional source-of-truth comparison and rewrite suggestions.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/review-content"
@@ -112,8 +112,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/autopilot.git"
       },
-      "description": "Scaffold long-running, hands-off Claude Code sessions. Generates a plan with user-observable acceptance criteria, a deterministic loop body, cross-iteration lesson memory, and hard budget/iteration ceilings — then hands off to /loop (interactive) or /schedule (remote cron). Halts on uncertainty instead of guessing.",
-      "version": "1.0.0",
+      "description": "Plan and run long tasks in Codex or Claude Code with observable completion criteria, lessons, and iteration limits.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/autopilot"
@@ -124,8 +124,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/design-deai.git"
       },
-      "description": "Detect AI slop patterns (purple gradients, Inter font fixation, rounded-2xl overuse, glassmorphism, missing Empty/Error states, absent design tokens) in UI source code via static analysis. Calculates a slop score (0–100) and generates a DESIGN.md to prevent recurring AI-generated anti-patterns.",
-      "version": "1.0.0",
+      "description": "Detect AI slop patterns (purple gradients, Inter font fixation, rounded-2xl overuse, glassmorphism, missing Empty/Error states, absent design tokens) in UI source code via static analysis, then generate a DESIGN.md to prevent recurring AI-generated anti-patterns.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/design-deai"
@@ -136,8 +136,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/design-brief.git"
       },
-      "description": "Define visual design direction for a Remotion presentation. Reads the content outline, analyzes emotional arc and visual metaphors, proposes 2–3 design concepts (color palette, typography, animation language, mood), and generates a theme TypeScript file.",
-      "version": "1.0.0",
+      "description": "Define visual design direction for a Remotion presentation. Reads the content outline, proposes 2-3 design concepts (color palette, typography, animation language, mood), then generates a theme TypeScript file.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/design-brief"
@@ -148,8 +148,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/ui-visual-reviewer.git"
       },
-      "description": "Audit a web app's rendered UI colors using getComputedStyle. Calculates WCAG AA/AAA contrast ratios and validates against design tokens — captures opacity-stacked and CSS-variable-resolved colors that screenshot review misses.",
-      "version": "1.0.0",
+      "description": "Audit a web app's rendered UI colors using getComputedStyle. Calculates WCAG contrast ratios and validates against design tokens — captures opacity-stacked and CSS-variable-resolved colors that screenshot review misses.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/ui-visual-reviewer"
@@ -160,8 +160,8 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/fetch-web.git"
       },
-      "description": "Fetch web page content as Markdown using a tiered strategy: r.jina.ai (primary), headless Chrome with Puppeteer (fallback), direct curl (last resort). Shared utility referenced by other skills for URL content retrieval.",
-      "version": "1.0.0",
+      "description": "Fetch web page content as Markdown using a tiered strategy: r.jina.ai (primary), headless Chrome with Puppeteer (fallback), direct curl (last resort). Shared utility referenced by other skills.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/fetch-web"
@@ -172,11 +172,59 @@
         "source": "url",
         "url": "https://github.com/eruto-skills/fetch-asset.git"
       },
-      "description": "Download media files from the web using the right tool for each source: yt-dlp for video/audio (1000+ sites), gallery-dl for image galleries (Pixiv, Twitter/X, etc.), a Pixabay CDN extractor script, aria2 for parallel downloads, and curl for direct links.",
-      "version": "1.0.0",
+      "description": "Download media files (MP3/MP4/PNG/SVG/etc.) from the web using the right tool for each source: yt-dlp for video/audio, gallery-dl for image galleries, a Pixabay CDN extractor script, aria2 for parallel downloads, and curl for direct links.",
+      "version": "1.1.0",
       "category": "productivity",
       "strict": true,
       "homepage": "https://github.com/eruto-skills/fetch-asset"
+    },
+    {
+      "name": "cook-idea",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/cook-idea.git"
+      },
+      "description": "Generate original cooking ideas from a user-provided culinary laws vault, cross-check conditions and evidence, and write idea notes.",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/cook-idea",
+      "version": "1.1.0"
+    },
+    {
+      "name": "meal-planner",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/meal-planner.git"
+      },
+      "description": "Plan balanced meals and course menus, with recipe templates, food science, scaling, and safety references.",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/meal-planner",
+      "version": "1.1.0"
+    },
+    {
+      "name": "mod-idea-dig",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/mod-idea-dig.git"
+      },
+      "description": "Discover Minecraft mod and datapack candidates, remove duplicates, classify them against project criteria, and draft candidates for human selection.",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/mod-idea-dig",
+      "version": "1.1.0"
+    },
+    {
+      "name": "screenshot",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/screenshot.git"
+      },
+      "description": "Open a URL in Chromium and save the rendered screen as a PNG, with viewport, dark mode, and wait options.",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/screenshot",
+      "version": "1.1.0"
     }
   ]
 }
