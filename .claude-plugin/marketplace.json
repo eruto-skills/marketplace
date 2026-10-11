@@ -237,6 +237,18 @@
       "strict": true,
       "homepage": "https://github.com/eruto-skills/steam-review",
       "version": "1.0.0"
+    },
+    {
+      "name": "qiita-draft",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/qiita-draft.git"
+      },
+      "description": "Draft, edit, and publish Qiita technical articles managed with Qiita CLI. Includes Qiita-compatible frontmatter, article structure patterns, Qiita Markdown extensions, a pre-publish QA checklist, and an attribution checklist for articles that quote real people.",
+      "category": "productivity",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/qiita-draft",
+      "version": "1.0.0"
     }
   ]
 }
