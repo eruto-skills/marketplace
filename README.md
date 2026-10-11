@@ -43,6 +43,7 @@ Replace `research-note` with any plugin name below.
 |[meal-planner](https://github.com/eruto-skills/meal-planner)|Plan balanced meals and course menus, with recipe templates, food science, scaling, and safety references.|
 |[mod-idea-dig](https://github.com/eruto-skills/mod-idea-dig)|Discover Minecraft mod and datapack candidates, remove duplicates, classify them against project criteria, and draft candidates for human selection.|
 |[screenshot](https://github.com/eruto-skills/screenshot)|Open a URL in Chromium and save the rendered screen as a PNG, with viewport, dark mode, and wait options.|
+|[steam-review](https://github.com/eruto-skills/steam-review)|Write a Steam store review in Steam's BBCode format, with genre-based structure patterns, tone guides, and a QA checklist. Saves each review as a Markdown file with frontmatter (title, store URL, genre, playtime, rating).|
 
 ## Release maintenance
 

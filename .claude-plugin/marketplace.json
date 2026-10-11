@@ -225,6 +225,18 @@
       "strict": true,
       "homepage": "https://github.com/eruto-skills/screenshot",
       "version": "1.1.0"
+    },
+    {
+      "name": "steam-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eruto-skills/steam-review.git"
+      },
+      "description": "Write a Steam store review in Steam's BBCode format, with genre-based structure patterns, tone guides, and a QA checklist. Saves each review as a Markdown file with frontmatter (title, store URL, genre, playtime, rating).",
+      "category": "creative",
+      "strict": true,
+      "homepage": "https://github.com/eruto-skills/steam-review",
+      "version": "1.0.0"
     }
   ]
 }
